@@ -1,0 +1,51 @@
+h1 {
+  font-size: 50px;
+  padding: 0px 100px;
+}
+
+.card1 {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(184, 182, 182, 0.2);
+  border-radius: 15px;
+  margin: auto;
+  padding: 40px 40px;
+  border: 2px solid rgb(214, 213, 213);
+}
+
+.card4 {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(184, 182, 182, 0.2);
+  border-radius: 15px;
+  margin: auto;
+  padding: 40px 40px;
+  border: 2px solid rgb(38, 59, 243);
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0px 10px;
+  text-align: center;
+  margin: 10px -5px;
+}
+
+.row {
+  margin: 0px 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grey {
+  position: absolute;
+  float: left;
+  width: 140px;
+  height: 140px;
+  background-color: rgb(194, 191, 191);
+  border-radius: 15px;
+}
